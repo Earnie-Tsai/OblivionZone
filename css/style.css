@@ -1,5 +1,9 @@
+ body {
+	font-family: Zapf Chancery, cursive;
+}
 ul {
 	list-style-type:none;
+	display: inline-flex;
 }
 #navigate {
 	text-align: center;
@@ -13,7 +17,7 @@ footer {
 	font-size: 12px;
 }
 
-#footer-nav li, #navigate li, #top-bar li {
+#footer-nav li, #navigate li, #top-bar li{
 	display:inline-block;
 	padding: 0 15px;
 }
@@ -35,10 +39,13 @@ footer {
 	margin-bottom: 5px;
 	}
 
+#social-media {
+	float: right;
+	margin : 5px 5px 0;
+}
+
 .menu-footer {
 	float: left;
 }
 
-.container {
 
-}
