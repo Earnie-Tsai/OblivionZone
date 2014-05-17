@@ -1,9 +1,82 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+	<title>Shopping</title>
+	<link rel='stylesheet' href='../css/style.css' type='text/css'/>
 
+	<style>
+		#center {width: 1000px; margin-left: auto; margin-right: auto;}
+		#product_navigator {width: 20%; float: left;}
+		#product_navigator ul {list-style-type:square; padding-top: 30px;}
+		#product_navigator li {margin: 20px 0;}
+		#product_display {width: 80%; float: left;}
+		#product_display img {width: 200px; height: 200px;}
+		#product_display div {width: 220px; display: block; text-align: center; margin: 30px;}
+		
+	</style>
 </head>
 <body>
+	<div id="header">
+ 		<center><a href=""><img src="../images/Logo.png"></a></center>
+ 	</div>
+ 	<div id="top_nav">
+ 		<nav>
+ 			<ul>
+ 				<li><a style="text-decoration:none" href="">BRACELETS</a></li>
+ 				<li><a style="text-decoration:none" href="">RINGS</a></li>
+ 				<li><a style="text-decoration:none" href="">EARRINGS</a></li>
+ 				<li><a style="text-decoration:none" href="">NECKLACES</a></li>
+ 			</ul>
+ 		</nav>
+ 	</div>
 
+ 	<div id="center">
+ 		<div id="product_navigator">
+ 			<ul>
+ 				<li><a style="text-decoration:none" href="">BRACELETS</a></li>
+ 				<li><a style="text-decoration:none" href="">RINGS</a></li>
+ 				<li><a style="text-decoration:none" href="">EARRINGS</a></li>
+ 				<li><a style="text-decoration:none" href="">NECKLACES</a></li>
+ 			</ul>
+ 		</div>
+
+ 		<div id="product_display">
+ 			<table>
+	 			<tr>
+	 				<td><div><a href=""><img src="../images/BlackRing/image.jpeg"/></a><span>BlackRing</span></div></td>
+	 				<td><div><a href=""><img src="../images/BlackWing/image.jpeg"/></a><span>BlackWing</span></div></td>
+	 				<td><div><a href=""><img src="../images/GoldRing/image.jpeg"/></a><span>GoldRing</span></div></td>
+	 			</tr>
+	 			<tr>
+	 				<td><div><a href=""><img src="../images/GoldWing/image.jpeg"/></a><span>GoldWing</span></div></td>
+	 				<td><div><a href=""><img src="../images/SilverRing/image.jpeg"/></a><span>SilverRing</span></div></td>
+	 			</tr>
+	 		</table>
+ 		</div>
+ 	</div>
+
+
+ 	<footer>
+		<div class="container">
+			<nav id="foot_nav">	
+				<div class="menu_footer">
+					<ul>
+						<li><a style="text-decoration:none" href="">About Us</a></li>
+						<li><a style="text-decoration:none" href="">Terms and Conditions</a></li>
+						<li><a style="text-decoration:none" href="">Contact</a></li>
+					</ul>
+				</div>
+				<ul style="float: left;" class="address">
+					<li> @Taipei Taiwan</li>
+				</ul>
+			</nav>
+			<ul id="social_media">
+				<li><a target="_blank" href="http://facebook.com.tw/earnie.tsai"><div id="fb"></div></a></li>
+				<li><a target="_blank" href="http://facebook.com.tw/earnie.tsai"><div id="google"></div></a></li>
+				<li><a target="_blank" href="http://facebook.com.tw/earnie.tsai"><div id="ig"></div></a></li>
+				<li><a target="_blank" href="http://facebook.com.tw/earnie.tsai"><div id="twitter"></div></a></li>
+			</ul>
+		</div>
+	</footer>
 </body>
 </html>
