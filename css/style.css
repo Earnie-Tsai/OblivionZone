@@ -23,11 +23,11 @@ footer {
 	padding: 0 15px;
 }
 #foot_nav ul {
-	margin: 0;
+	margin: 2px 0 0;
 }
 #foot_nav ul li a{
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 14px;
 }
 #home_slider {
 	padding-top: 20px;
@@ -41,7 +41,7 @@ footer {
 }
 #social_media {
 	float: right;
-	margin : 0px 15px 0;
+	margin : 2px 15px 0;
 }
 .menu_footer {
 	float: left;
