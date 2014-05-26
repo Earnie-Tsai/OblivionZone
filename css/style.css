@@ -34,9 +34,18 @@ footer {
 #home_slider {
 	padding-top: 20px;
 }
-#header {height:100px; width:100%; position:fixed; top: 0px; background: white; padding-top: 30px;}
-#blank {height:100px; width:100%;}
-
+#header {
+	height:100px; 
+	width:100%; 
+	position:fixed; 
+	top: 0px; 
+	background: #F2F2F2; 
+	padding-top: 30px;
+}
+#blank {
+	height:100px; 
+	width:100%;
+}
 #social_media {
 	float: right;
 	margin : 2px 15px 0;
